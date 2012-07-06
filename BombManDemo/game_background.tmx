@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="map_village_object" tilewidth="64" tileheight="64">
+  <image source="map_village_object.png" width="640" height="640"/>
+  <tile id="0">
+   <properties>
+    <property name="Bombable" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Bombable" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Bombable" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Bombable" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Bombable" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Bombable" value="True"/>
+    <property name="Pushable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Hideable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Hideable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJylklEKACEIRL3TbqH3v9j2oSDDVC5+PCKcYTJVEdHEXDyL4ed0om4Ou5+8tvFWcrPuT64RLWbfvJhf7bfjxb/C91dysxZh3p2OMQ614G3QyT31c4PtZOyCgZbNBuerxMvm+wGDXC+o
+  </data>
+ </layer>
+ <layer name="level1" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAEbGg0vQCl9tJbH7LegQorcvUSox9dDS49xKgjVi+yGBuaGBsWOWxiQw0AAAAjAJ0=
+  </data>
+ </layer>
+ <layer name="level2" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgEAViMSAWB2IJBtwAmzp5IFYAYkUgVsKjl1h1xABi3Utrd+ADQ8GNowAVkBJn6GpJiTN0tQAACgUp
+  </data>
+ </layer>
+ <layer name="level3" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYsAPGKGYiYA6XHrJVYtLLzZ3EGsPKxn2MkNpFiz6iXUzsjnk6IX5mQWKselFF0NXy4hDHTZ5bOqGCmBEYyP7BZccsf4lJVxA6mBxwIykFz0dgAAAo4QAYw==
+  </data>
+ </layer>
+ <layer name="level4" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAt4BgAvewDZC/M7oHQS4m5tLJ3oAAHA2YccuCRw2cOITY1AADEKACE
+  </data>
+ </layer>
+ <objectgroup name="objects" width="15" height="15">
+  <object name="player" x="96" y="672" width="64" height="64"/>
+ </objectgroup>
+</map>
