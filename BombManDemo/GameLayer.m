@@ -141,7 +141,7 @@ CCSequence *seqUp;
 
         
 
-        [self schedule: @selector(refreshBackground) interval:0.5];
+        [self schedule: @selector(refreshBackground) interval:1 / 30];
 		
     }
     return self;

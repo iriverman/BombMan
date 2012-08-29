@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		311293B515B65DC400FF9C29 /* unit_bazzi.png in Resources */ = {isa = PBXBuildFile; fileRef = 311293B415B65DC400FF9C29 /* unit_bazzi.png */; };
+		3113C05115B7E57900F771AA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3113C05015B7E57900F771AA /* libz.dylib */; };
+		3113C05215B7E5DB00F771AA /* CCJoyStick.m in Sources */ = {isa = PBXBuildFile; fileRef = 3113C04915B7D80C00F771AA /* CCJoyStick.m */; };
+		3113C05315B7E5DB00F771AA /* CCLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3113C04B15B7D80C00F771AA /* CCLayout.m */; };
 		3192577A15A584450025E24D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3192577915A584450025E24D /* QuartzCore.framework */; };
 		3192577C15A584450025E24D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3192577B15A584450025E24D /* OpenGLES.framework */; };
 		3192577E15A584450025E24D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3192577D15A584450025E24D /* OpenAL.framework */; };
@@ -128,6 +132,13 @@
 		319258FA15A58FB90025E24D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 319258F915A58FB90025E24D /* GameScene.m */; };
 		319258FC15A591EB0025E24D /* game_background.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 319258FB15A591EB0025E24D /* game_background.tmx */; };
 		319258FE15A592BA0025E24D /* map_village_object.png in Resources */ = {isa = PBXBuildFile; fileRef = 319258FD15A592BA0025E24D /* map_village_object.png */; };
+		3199BECD15A6DD8300C82D65 /* c1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3199BEC615A6DD8300C82D65 /* c1.png */; };
+		3199BECE15A6DD8300C82D65 /* c2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3199BEC715A6DD8300C82D65 /* c2.png */; };
+		3199BECF15A6DD8300C82D65 /* c4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3199BEC815A6DD8300C82D65 /* c4.png */; };
+		3199BED015A6DD8300C82D65 /* c5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3199BEC915A6DD8300C82D65 /* c5.png */; };
+		3199BED115A6DD8300C82D65 /* c6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3199BECA15A6DD8300C82D65 /* c6.png */; };
+		3199BED215A6DD8300C82D65 /* c7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3199BECB15A6DD8300C82D65 /* c7.png */; };
+		3199BED315A6DD8300C82D65 /* c9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3199BECC15A6DD8300C82D65 /* c9.png */; };
 		31C4EC8115A6C75B00EE0846 /* unit_bazzi01.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C4EC6415A6C75B00EE0846 /* unit_bazzi01.png */; };
 		31C4EC8215A6C75B00EE0846 /* unit_bazzi02.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C4EC6515A6C75B00EE0846 /* unit_bazzi02.png */; };
 		31C4EC8315A6C75B00EE0846 /* unit_bazzi03.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C4EC6615A6C75B00EE0846 /* unit_bazzi03.png */; };
@@ -160,6 +171,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		311293B415B65DC400FF9C29 /* unit_bazzi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unit_bazzi.png; sourceTree = "<group>"; };
+		3113C04815B7D80C00F771AA /* CCJoyStick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCJoyStick.h; sourceTree = "<group>"; };
+		3113C04915B7D80C00F771AA /* CCJoyStick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCJoyStick.m; sourceTree = "<group>"; };
+		3113C04A15B7D80C00F771AA /* CCLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCLayout.h; sourceTree = "<group>"; };
+		3113C04B15B7D80C00F771AA /* CCLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLayout.m; sourceTree = "<group>"; };
+		3113C05015B7E57900F771AA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		3192577515A584450025E24D /* BombManDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BombManDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3192577915A584450025E24D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3192577B15A584450025E24D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -404,6 +421,13 @@
 		319258F915A58FB90025E24D /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		319258FB15A591EB0025E24D /* game_background.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = game_background.tmx; sourceTree = "<group>"; };
 		319258FD15A592BA0025E24D /* map_village_object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_village_object.png; sourceTree = "<group>"; };
+		3199BEC615A6DD8300C82D65 /* c1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c1.png; path = Resources/c1.png; sourceTree = "<group>"; };
+		3199BEC715A6DD8300C82D65 /* c2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c2.png; path = Resources/c2.png; sourceTree = "<group>"; };
+		3199BEC815A6DD8300C82D65 /* c4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c4.png; path = Resources/c4.png; sourceTree = "<group>"; };
+		3199BEC915A6DD8300C82D65 /* c5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c5.png; path = Resources/c5.png; sourceTree = "<group>"; };
+		3199BECA15A6DD8300C82D65 /* c6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c6.png; path = Resources/c6.png; sourceTree = "<group>"; };
+		3199BECB15A6DD8300C82D65 /* c7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c7.png; path = Resources/c7.png; sourceTree = "<group>"; };
+		3199BECC15A6DD8300C82D65 /* c9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c9.png; path = Resources/c9.png; sourceTree = "<group>"; };
 		31C4EC6415A6C75B00EE0846 /* unit_bazzi01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unit_bazzi01.png; sourceTree = "<group>"; };
 		31C4EC6515A6C75B00EE0846 /* unit_bazzi02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unit_bazzi02.png; sourceTree = "<group>"; };
 		31C4EC6615A6C75B00EE0846 /* unit_bazzi03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unit_bazzi03.png; sourceTree = "<group>"; };
@@ -440,6 +464,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3113C05115B7E57900F771AA /* libz.dylib in Frameworks */,
 				319258F415A588470025E24D /* SystemConfiguration.framework in Frameworks */,
 				3192577A15A584450025E24D /* QuartzCore.framework in Frameworks */,
 				3192577C15A584450025E24D /* OpenGLES.framework in Frameworks */,
@@ -455,9 +480,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3113C04315B7D46000F771AA /* gamepad */ = {
+			isa = PBXGroup;
+			children = (
+				3113C04815B7D80C00F771AA /* CCJoyStick.h */,
+				3113C04915B7D80C00F771AA /* CCJoyStick.m */,
+				3113C04A15B7D80C00F771AA /* CCLayout.h */,
+				3113C04B15B7D80C00F771AA /* CCLayout.m */,
+			);
+			name = gamepad;
+			sourceTree = "<group>";
+		};
 		3192576A15A584450025E24D = {
 			isa = PBXGroup;
 			children = (
+				3113C05015B7E57900F771AA /* libz.dylib */,
 				3192578915A584460025E24D /* BombManDemo */,
 				3192577815A584450025E24D /* Frameworks */,
 				3192577615A584450025E24D /* Products */,
@@ -491,6 +528,7 @@
 		3192578915A584460025E24D /* BombManDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3113C04315B7D46000F771AA /* gamepad */,
 				319258DB15A584490025E24D /* AppDelegate.h */,
 				319258DC15A584490025E24D /* AppDelegate.m */,
 				319258F015A585E30025E24D /* DataManager.h */,
@@ -514,6 +552,13 @@
 		3192578A15A584460025E24D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3199BEC615A6DD8300C82D65 /* c1.png */,
+				3199BEC715A6DD8300C82D65 /* c2.png */,
+				3199BEC815A6DD8300C82D65 /* c4.png */,
+				3199BEC915A6DD8300C82D65 /* c5.png */,
+				3199BECA15A6DD8300C82D65 /* c6.png */,
+				3199BECB15A6DD8300C82D65 /* c7.png */,
+				3199BECC15A6DD8300C82D65 /* c9.png */,
 				31C4EC6315A6C75B00EE0846 /* player */,
 				319258FB15A591EB0025E24D /* game_background.tmx */,
 				319258FD15A592BA0025E24D /* map_village_object.png */,
@@ -845,6 +890,7 @@
 		31C4EC6315A6C75B00EE0846 /* player */ = {
 			isa = PBXGroup;
 			children = (
+				311293B415B65DC400FF9C29 /* unit_bazzi.png */,
 				31C4EC6415A6C75B00EE0846 /* unit_bazzi01.png */,
 				31C4EC6515A6C75B00EE0846 /* unit_bazzi02.png */,
 				31C4EC6615A6C75B00EE0846 /* unit_bazzi03.png */,
@@ -969,6 +1015,14 @@
 				31C4EC9B15A6C75B00EE0846 /* unit_bazzi27.png in Resources */,
 				31C4EC9C15A6C75B00EE0846 /* unit_bazzi28.png in Resources */,
 				31C4EC9D15A6C75B00EE0846 /* unit_bazzi29.png in Resources */,
+				3199BECD15A6DD8300C82D65 /* c1.png in Resources */,
+				3199BECE15A6DD8300C82D65 /* c2.png in Resources */,
+				3199BECF15A6DD8300C82D65 /* c4.png in Resources */,
+				3199BED015A6DD8300C82D65 /* c5.png in Resources */,
+				3199BED115A6DD8300C82D65 /* c6.png in Resources */,
+				3199BED215A6DD8300C82D65 /* c7.png in Resources */,
+				3199BED315A6DD8300C82D65 /* c9.png in Resources */,
+				311293B515B65DC400FF9C29 /* unit_bazzi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -979,6 +1033,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3113C05215B7E5DB00F771AA /* CCJoyStick.m in Sources */,
+				3113C05315B7E5DB00F771AA /* CCLayout.m in Sources */,
 				319257A215A584460025E24D /* CCAction.m in Sources */,
 				319257A515A584460025E24D /* CCActionCamera.m in Sources */,
 				319257A815A584460025E24D /* CCActionEase.m in Sources */,
